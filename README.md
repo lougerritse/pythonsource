@@ -8,9 +8,11 @@ I am not a programmer by nature or as a full time role. I have written small pro
 
 IBM i series AS/400 Helpers:
 create a csv listing from wrkoutq to a spool file. Export the spool file using operations navigator.
-Run the python with an input parameter and output parameter. modifications might be needed while checking the header.
 
+Run the python with an input parameter and output parameter. modifications might be needed while checking the header.
+The convert to CSV python will take a spool file report and create a csv version for data gathering.
 convertTOcsv.py
 
 
+The clean spool command will create a list of FTP commands to delete the spool files from the system. This is helpful when you have an out queue containing more than the limit of 192,000 entries.
 cleanspl.py
